@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slide Bar</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="slide.css">
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+	<div id="main" class="main">
+  <div id="top" class="top">
+  	  <a style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</a>
+  </div>
+  
+  <section class="images">
+  <p>The possibility that Cyber Monday, in which promotions move online, could garner Black Friday-like attention is driven by a couple of big factors. One is consumers' insatiable appetite for cool electronics, as evidenced by how they sought out the latest digital products on Black Friday. The other is the move by traditional retailers like Walmart and Target intent on seeing more of their more sales coming from the Internet. They are hoping to take back more market share from Amazon and other online sellers.
+
+	Jenah Marsh of Covina, Calif., was fairly unimpressed with the deals she was finding Friday as she shopped with friend Tammy Frame of Thousand Oaks, Calif., at The Oaks Shopping Center. But the prospect of Cyber Monday had her brimming with optimism.</p>
+  <div class="img"><img src="microsoft_hololens-t1.jpg"></div>
+  <div class="img"><img src="snow_mountains_asus_zenfone-t1.jpg"></div>
+  <div class="img"><img src="microsoft_hololens-t1.jpg"></div>
+  <div class="img"><img src="snow_mountains_asus_zenfone-t1.jpg"></div>
+    <div class="img"><img src="microsoft_hololens-t1.jpg"></div>
+
+  </section>
+  </div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+</html>
